@@ -4,3 +4,42 @@
     text-align: center;
     color: white;
 }
+
+table, th, td {
+    border: 1px solid;
+    margin: 20px auto;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+#botones-control {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    margin: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn.add {
+    background-color: #435CDB;
+}
+
+.btn.update {
+    background-color: #2AA75C;
+} 
+
+.btn.delete {
+    background-color: #C01F11;
+} 
